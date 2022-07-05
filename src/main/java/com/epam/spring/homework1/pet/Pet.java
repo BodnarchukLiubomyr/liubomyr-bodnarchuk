@@ -1,6 +1,5 @@
 package com.epam.spring.homework1.pet;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -9,11 +8,11 @@ import java.util.List;
 public class Pet {
     private List<Animal> animals;
 
-    public Pet(List<Animal> animals){
+    public Pet(List<Animal> animals) {
         this.animals = animals;
     }
 
-    public void printPets(){
+    public void printPets() {
         for (Animal animal : animals) {
             System.out.println(animal.getAnimal());
         }
