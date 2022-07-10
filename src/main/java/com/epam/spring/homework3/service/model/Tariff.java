@@ -13,8 +13,4 @@ public class Tariff{
     private BigDecimal price;
     private String description;
     private Service service;
-
-    public Tariff(double price1){
-        price = new BigDecimal(price1);
-    }
 }
